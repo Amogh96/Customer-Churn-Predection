@@ -1,11 +1,4 @@
 # Customer-Churn-Predection
-Capita works with a number of Telco companies and we are aware that customer churn is often a 
-problem in the Telco sector. We are therefore looking to create a solution that will predict churn and help 
-define prevention measures for these companies.
-To better understand what is involved in creating such a solution and how to implement it in a client 
-organisation, we ask you to do some research and create a predictive model using one of two datasets 
-provided. 
-The two datasets are sample data of two Telco companies (A and B). They contain attributes of the 
-customers in terms of their usage, services and some demographic data. They also contain a variable -
-‘churn’, indicating whether a customer has discontinued with the service or not. Each row in the data 
-represents one customer.
+Capita works with a number of Telco companies and we are aware that customer churn is often a problem in the Telco sector. We are therefore looking to create a solution that will predict churn and help define prevention measures for these companies.To better understand what is involved in creating such a solution and how to implement it in a client organisation, we ask you to do some research and create a predictive model using one of two datasets provided.The two datasets are sample data of two Telco companies (A and B). They contain attributes of the customers in terms of their usage, services and some demographic data. They also contain a variable -‘churn’, indicating whether a customer has discontinued with the service or not. Each row in the data represents one customer.
+
+The primary goal of customer churn predictive models is to retain customers with the highest risk of churn. The predictive model in this report aims to predict churn in advance, enabling prevention measures to be used.This report on the Company A dataset is a binary classification problem. Churn is a categorical variable with Yes and No values, so a good idea is to use classification models. This analysis will use Logistic Regression (LR), K – Nearest Neighbours (KNN), Decision Trees and SVM (Support Vector Classifier).The data is split into 70% train and 30% test. All analysis was performed only on  training data. First the data was modeled using default parameters without scaling and class weights. However, the data from Company A is imbalanced so scaling and using the class weight parameter is crucial.
